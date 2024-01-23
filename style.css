@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comic Neue", cursive;
+}
+
+body {
+  background: linear-gradient(to left, black, #33194d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p{
+    color: #FFF;
+    margin-right: 250px;
+
+}
+header{
+    gap: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*CONFIGURAÇAO MAIN E IMAGEM*/
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 414px;
+  min-height: 100vh;
+  padding: 15px 0px;
+  gap: 15px;
+}
+
+.img {
+margin:auto;
+  margin-top: 35px;
+  width: 200px;
+}
+
+.color {
+  width: 350px;
+  height: 200px;
+  background-color: #fff;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.25;
+  filter: blur(24px);
+  margin-top: 68px;
+}
+
+h1 {
+  
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+/*CONFIGIRAÇAO INPUT*/
+label {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+}
+
+input {
+  display: flex;
+  width: 342px;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  color: #fff;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 2px solid #33194d;
+  background: transparent;
+}
+
+/*CONFIGURAÇAO BUTTON*/
+button {
+  display: flex;
+  width: 342px;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 2.5px;
+  cursor: pointer;
+  outline: none;
+ 
+}
+#button-login {
+  border: 2px solid #33194d;
+  background: transparent;
+  color: #fff;
+  transition: 0.5s;
+}
+#button-login:hover {
+  background-color: #33194d;
+}
+
+#button-google {
+  background: #fff;
+  color: #33194d;
+  border: none;
+  transition: 0.5s;
+}
+
+#button-google img{
+    margin-right: 10px;
+
+}
+#button-google:hover {
+  border: 2px solid #33194d;
+  color: #fff;
+  background-color: transparent;
+}
+
+
+.link{
+    text-align: center;
+    margin-top: 25px;
+}
+span{
+  font-weight: 700;
+}
+
+a{
+    color: #FFF;
+   text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+    transition: 0.3s ease ;
+}
+
