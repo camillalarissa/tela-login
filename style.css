@@ -11,13 +11,12 @@ body {
   justify-content: center;
   align-items: center;
 }
-p{
-    color: #FFF;
-    margin-right: 250px;
-
+p {
+  color: #fff;
+  margin-right: 250px;
 }
-header{
-    gap: 5px;
+header {
+  gap: 5px;
 }
 
 header {
@@ -36,7 +35,7 @@ main {
 }
 
 .img {
-margin:auto;
+  margin: auto;
   margin-top: 35px;
   width: 200px;
 }
@@ -53,7 +52,6 @@ margin:auto;
 }
 
 h1 {
-  
   font-weight: 700;
   font-size: 30px;
   line-height: 24px;
@@ -98,7 +96,6 @@ button {
   line-height: 2.5px;
   cursor: pointer;
   outline: none;
- 
 }
 #button-login {
   border: 2px solid #33194d;
@@ -117,9 +114,8 @@ button {
   transition: 0.5s;
 }
 
-#button-google img{
-    margin-right: 10px;
-
+#button-google img {
+  margin-right: 10px;
 }
 #button-google:hover {
   border: 2px solid #33194d;
@@ -127,20 +123,18 @@ button {
   background-color: transparent;
 }
 
-
-.link{
-    text-align: center;
-    margin-top: 25px;
+.link {
+  text-align: center;
+  margin-top: 25px;
 }
-span{
+span {
   font-weight: 700;
 }
 
-a{
-    color: #FFF;
-   text-decoration: none;
-    font-size: 14px;
-    font-weight: 100;
-    transition: 0.3s ease ;
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 100;
+  transition: 0.3s ease;
 }
-
